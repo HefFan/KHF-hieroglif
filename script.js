@@ -427,7 +427,7 @@ document.getElementById("q2close").addEventListener('click', function(){
 document.getElementById("_").addEventListener('click', function(){
     var li=document.createElement("li");
     var img=document.createElement("img");
-    img.src="font/lgsym/_.png";
+    img.src="font/lgsym/spc_.png";
     li.appendChild(img);
     document.getElementById("font").appendChild(li);
 });
