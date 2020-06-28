@@ -9,6 +9,10 @@ body{
     background-image:repeating-linear-gradient(rgba(100,200,200,0.7), rgba(240,150,240,0.9)), url(back.jpg);
     padding:10px;
     margin: 10px auto;
+    position: fixed;
+    top:0;
+    left:30px;
+    right: 30px;
 }
 #result{
     width:380px;
@@ -31,38 +35,22 @@ body{
     display: inline;
 }
 
-#backsp{
+#backsp, #enter, #clear, #tab{
     position: relative;
+    left:2%;
     top:0;
-    left:31%;
     height: 35px;
     border: 3px solid grey;
     border-radius: 20px;
     box-shadow: 0 5px 5px 0 rgba(0,0,0,0.3) , 0 -5px 5px 0 rgba(0,0,0,0.3);
     margin:10px auto;
     background: lightGrey;
+    width: 23.4%;
 }
-#backsp:active{
+#backsp:active, #enter:active, #clear:active, #tab:active{
     background-image: radial-gradient(rgba(80,150,80),rgba(100,200,100));
 }
-#backsp:focus{
-    outline: 0;
-}
-#clear{
-    position: relative;
-    top:0;
-    left:31%;
-    height: 35px;
-    border: 3px solid grey;
-    border-radius: 20px;
-    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.3) , 0 -5px 5px 0 rgba(0,0,0,0.3);
-    margin:10px auto;
-    background: lightGrey;
-}
-#clear:active{
-    background-image: radial-gradient(rgba(80,150,80),rgba(100,200,100));
-}
-#clear:focus{
+#backsp:focus, #enter:focus, #clear:focus, #tab:focus{
     outline: 0;
 }
 #keyboard{
