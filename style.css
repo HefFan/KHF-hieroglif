@@ -1,15 +1,13 @@
 body{
     background: black;
-    padding: 10px;
-    padding-right: 20px;
 }
 #container{
     width:400px;
-    height:660px;
+    height:92vh;
     background-image:repeating-linear-gradient(rgba(100,200,200,0.7), rgba(240,150,240,0.9)), url(back.jpg);
     padding:10px;
-    margin: 10px auto;
-    position: fixed;
+    margin: auto;
+    position: absolute;
     top:0;
     left:30px;
     right: 30px;
@@ -21,7 +19,7 @@ body{
     border: 5px solid grey;
     border-radius: 20px;
     box-shadow: 0 5px 5px 0 rgba(0,0,0,0.3) , 0 -5px 5px 0 rgba(0,0,0,0.3);
-    margin:10px auto;
+    margin:auto;
     background: lightGrey;
 }
 #font{
